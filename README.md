@@ -1,6 +1,6 @@
 # 🎬 Automatic Chapter Generation for Hindi-English YouTube Videos
 
-[![Paper](https://img.shields.io/badge/Research%20Paper-JISEM%202024-blue)](https://jisem-journal.com/index.php/journal/article/view/12505)
+URL: [![Paper](https://img.shields.io/badge/Research%20Paper-JISEM%202024-blue)](https://jisem-journal.com/index.php/journal/article/view/12505)
 
 ## 📌 Overview
 This repository contains the code, dataset pipeline, and methodology used in our **published research paper**:  

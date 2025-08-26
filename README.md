@@ -8,6 +8,8 @@ This repository contains the code, dataset pipeline, and methodology used in our
 
 The project introduces the **first documented attempt** at building an **automatic chaptering system for Hinglish (Hindi-English code-switched) YouTube videos**, addressing a major gap in multilingual video accessibility.
 
+
+
 ---
 
 ## 🏆 Key Contributions
@@ -24,6 +26,22 @@ The project introduces the **first documented attempt** at building an **automat
   - Avg. chapter length = **~4.7 minutes**.  
   - Human Evaluation = **2.75/5** (relevance & informativeness).  
 - 🌍 **Impact**: Improves navigability of Hinglish videos, supports Indian content creators, and lays foundation for inclusive multilingual AI tools.
+
+---
+## 🔊 Flask Web Application – Chaptify
+Alongside the research, I built a **Flask-based web application** to implement this pipeline practically.
+
+### ⚡ Chaptify – YouTube Video Chaptering & Summarization Tool
+Chaptify is an AI-powered Flask web application that takes a YouTube video URL and **automatically generates meaningful chapter-wise summaries and titles** from spoken Hindi or Hinglish content.  
+
+🔹 **Features**:  
+- Accepts **YouTube video URL** as input.  
+- Uses **OpenAI Whisper** for ASR transcription.  
+- Summarizes Hinglish segments with **mBART**.  
+- Generates short, relevant titles using **KeyBERT**.  
+- Outputs clean, timestamped **JSON files** for easy indexing and navigation.  
+
+👉 Repository Link: [Chaptify – Flask App](https://github.com/avanigupta06/Chaptify)
 
 ---
 

@@ -13,7 +13,7 @@ The project introduces the **first documented attempt** at building an **automat
 ---
 
 ## 🏆 Key Contributions
-- 📂 **Dataset Creation**: Curated a **20GB medium-scale dataset (437 videos)** featuring natural Hindi-English code-switching (podcasts, educational, discussion videos).
+
 - 🧠 **Novel Pipeline**:
   - **Whisper Medium (ASR)** → Transcribe bilingual speech with timestamps.  
   - **Preprocessing** → Clean filler words, normalize structure.  
